@@ -12,7 +12,7 @@ Will find all videoes of formats: mp4, webm, ogg, avi, mov, flv. <br>
 ## Notice:<br> 
 Hufflib is not yet uploaded to pypi, for I am choosing to mature Hufflib more before uploading it to pypi. So For now, when hufflib is in it's testing stages, just copy the files to your project directory and it will work! 
 
-## Examples
+## Examples:
 
 ```python
 import hufflib
@@ -47,8 +47,8 @@ print(videos)
 |url_imagefind| url, ext|
 |url_videofind| url, ext|
 
-## Contributing
+## Contributing:
 Pull requests are welcome!
 
-## License
+## License:
 [MIT](https://choosealicense.com/licenses/mit/)
