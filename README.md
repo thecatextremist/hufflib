@@ -44,8 +44,8 @@ print(videos)
 |Function|Parameters|
 |----------------|-------------|
 |urlfind()| url|   
-|url_imagefind| url, ext|
-|url_videofind| url, ext|
+|url_imagefind()| url, ext|
+|url_videofind()| url, ext|
 
 ## Contributing:
 Pull requests are welcome!
