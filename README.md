@@ -21,6 +21,7 @@ import hufflib
 #gets urls on page with any image behind them
 images = hufflib.url_imagefind("https://reddit.com", 'all')
 print(images)
+
 >>> ['reddit.com/image.png', 'reddit.com/image.ico', 'reddit.com/image.jpg']
 ```
 ```python
@@ -28,6 +29,7 @@ print(images)
 
 images = hufflib.url_imagefind("https://reddit.com", 'jpg')
 print(images)
+
 >>> ['reddit.com/image.jpg', 'reddit.com/anotherimage.jpg] 
 ```
 ```python
@@ -35,9 +37,15 @@ print(images)
 
 videos = hufflib.url_videofind("https://reddit.com", 'mp4')
 print(videos)
+
 >>> ['reddit.com/video.mp4', 'reddit.com/anothervideo.mp4] 
 ```
-
+## Methods:
+|------------|
+|    Name    |
+|------------|
+|  urlfind() |
+|------------|
 ## Contributing
 Pull requests are welcome!
 
