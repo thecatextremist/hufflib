@@ -9,7 +9,7 @@ You can additionally specify which format the image/video should be in, or you c
 Currently supported image formats: png, jpg, svg, tiff, bmp, ico
 Currently supported video formats: mp4, webm, ogg, avi, mov, flv
 
-Hufflib is not yet uploaded to pypi! For now, when hufflib is in it's testing stages, just copy the files to your project directory! 
+## Notice: Hufflib is not yet uploaded to pypi! For now, when hufflib is in it's testing stages, just copy the files to your project directory! 
 
 ## Examples
 
@@ -31,7 +31,6 @@ url_data = hufflib.url_videofind("https://reddit.com", 'mp4')
 print(url_data)
 >>> ['reddit.com/video.mp4'] 
 
-##
 ## Contributing
 Pull requests are welcome!
 
