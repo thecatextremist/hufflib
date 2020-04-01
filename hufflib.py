@@ -25,10 +25,6 @@ class hufflib:
     def url_videofind(url, ext):
         return _videofind.url_videofind(url=url, ext=ext)
 
-x = hufflib.url_imagefind('https://www.reddit.com', 'all')
-
-print(x)
-        
 
         
 
