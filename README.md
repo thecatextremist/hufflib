@@ -1,13 +1,14 @@
 # Hufflib
 
 Hufflib (html url finder library) is a lightweight python library built for extracting urls out of html pages. 
-With Hufflib You can extract general urls or specific urls with special extensions such as image urls or video urls.<br>
+With Hufflib You can extract general urls or specific urls with special extensions such as: image urls, video urls or audio urls.<br>
 TL;DR Hufflib retrieves urls on a web page and appends them to a list for you! <br>P.S: Hufflib is very helpful in the process of web scraping<br> 
 
-You can additionally specify which format the image/video should be in, or you can use the 'all' option to display all of urls within the page. <br>
+You can additionally specify which format the image/video/audio should be in, or you can use the 'all' option to display all of urls within the page. <br>
 
 Will find all images of the formats: png, jpg, svg, tiff, bmp, ico. <br>
 Will find all videoes of formats: mp4, webm, ogg, avi, mov, flv. <br>
+Will find all audio of formats: mp3, wav. <br>
 
 ## Notice:<br> 
 Hufflib is not yet uploaded to pypi, for I am choosing to mature Hufflib more before uploading it to pypi. So For now, when hufflib is in it's testing stages just copy the files to your project directory and it will work! 
@@ -42,10 +43,11 @@ print(videos)
 ```
 ## Methods:
 |Function|Parameters|
-|----------------|-------------|
-|urlfind()| url|   
+|---------------|---------|
+|urlfind()      | url     |   
 |url_imagefind()| url, ext|
 |url_videofind()| url, ext|
+|url_audiofind()| url, ext|
 
 ## Contributing:
 Pull requests are welcome!
