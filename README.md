@@ -44,7 +44,7 @@ print(videos)
 ```python
 #gets urls on page with only mp3 videos behind them
 
-audio = hufflib.url_videofind("https://reddit.com", 'mp3')
+audio = hufflib.url_audiofind("https://reddit.com", 'mp3')
 print(audio)
 
 >>> ['reddit.com/sound.mp3', 'reddit.com/anothersound.mp3] 
