@@ -2,15 +2,15 @@
 
 Hufflib (html url finder library) is a python library built for extracting urls out of html pages. 
 with Hufflib You can extract general urls or specific urls with special extensions such as image urls or video urls.
-Hufflib then retrieves the urls and appends them to a list for you! <br> 
+Hufflib then retrieves the urls and appends them to a list for you! <br>P.S: Hufflib is very helpful in the process of web scraping<br> 
 
-You can additionally specify which format the image/video should be in, or you can use 'all' to display all urls. <br>
+You can additionally specify which format the image/video should be in, or you can use the 'all' option to display all of urls within the page. <br>
 
-Currently supported image formats: png, jpg, svg, tiff, bmp, ico. <br>
-Currently supported video formats: mp4, webm, ogg, avi, mov, flv. <br>
+Will find all images of the formats: png, jpg, svg, tiff, bmp, ico. <br>
+Will find all videoes of formats: mp4, webm, ogg, avi, mov, flv. <br>
 
 ## Notice:<br> 
-Hufflib is not yet uploaded to pypi! For now, when hufflib is in it's testing stages, just copy the files to your project directory! 
+Hufflib is not yet uploaded to pypi, for I am choosing to mature Hufflib more before uploading it to pypi. So For now, when hufflib is in it's testing stages, just copy the files to your project directory and it will work! 
 
 ## Examples
 
@@ -18,19 +18,25 @@ Hufflib is not yet uploaded to pypi! For now, when hufflib is in it's testing st
 import hufflib
 
 #gets urls on page with any image behind them
-url_data = hufflib.url_imagefind("https://reddit.com", 'all')
-print(url_data)
+```
+```python
+images = hufflib.url_imagefind("https://reddit.com", 'all')
+print(images)
 >>> ['reddit.com/image.png', 'reddit.com/image.ico', 'reddit.com/image.jpg']
-
+```
+```python
 #gets urls on page with jpeg images behind them 
-url_data = hufflib.url_imagefind("https://reddit.com", 'jpg')
-print(url_data)
->>> ['reddit.com/image.jpg'] 
 
+images = hufflib.url_imagefind("https://reddit.com", 'jpg')
+print(images)
+>>> ['reddit.com/image.jpg', 'reddit.com/anotherimage.jpg] 
+```
+```python
 #gets urls on page with only mp4 videos behind them
-url_data = hufflib.url_videofind("https://reddit.com", 'mp4')
-print(url_data)
->>> ['reddit.com/video.mp4'] 
+
+videos = hufflib.url_videofind("https://reddit.com", 'mp4')
+print(videos)
+>>> ['reddit.com/video.mp4', 'reddit.com/anothervideo.mp4] 
 ```
 
 ## Contributing
