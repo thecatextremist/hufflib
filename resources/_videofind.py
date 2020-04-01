@@ -7,7 +7,7 @@ def url_videofind(url, ext):
         url_txt = url_fetch.text
         results = re.findall('http[s]?://(?:[a-zA-Z]|[0-9]|[$-_@.&+]|[!*\(\),]|(?:%[0-9a-fA-F][0-9a-fA-F]))+', url_txt)
         
-         #List of images found within page
+         #List of videos found within page
         video_mp4 = []
         video_webm = []
         image_ogg = []
@@ -16,35 +16,35 @@ def url_videofind(url, ext):
         image_flv = []
         image_all = []
 
-        #finds png's on the page
+        #finds mp4's on the page
         for mp4 in results:
             if 'mp4' in png:
                 video_mp4.append(mp4)
             else:
                  pass
 
-        #finds jpeg's on the page
+        #finds webm's on the page
         for webm in results:
             if 'webm' in webm:
                 video_webm.append(webm)
             else:
                  pass
     
-        #finds svg's on the page
+        #finds ogg's on the page
         for ogg in results:
             if 'ogg' in ogg:
                 video_ogg.append(ogg)
             else:
                 pass
 
-        #finds tiff's on the page
+        #finds avi's on the page
         for avi in results:
             if 'avi' in avi:
                 video_avi.append(avi)
             else:
                 pass
 
-        #finds bmp's on the page
+        #finds mov's on the page
         for mov in results:
             if 'mov' in mov:
                 video_mov.append(mov)
