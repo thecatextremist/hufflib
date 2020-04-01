@@ -42,9 +42,10 @@ print(videos)
 ```
 ## Methods:
 |Function|Parameters|
-|---------|--------|
-|hufflib.urlfind()| url|   
-|hufflib.url_imagefind| url, ext
+|----------------|-------------|
+|urlfind()| url|   
+|url_imagefind| url, ext|
+|url_videofind| url, ext|
 
 ## Contributing
 Pull requests are welcome!
