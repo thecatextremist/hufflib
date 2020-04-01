@@ -42,7 +42,9 @@ print(videos)
 ```
 ## Methods:
 |Function|Parameter|
-|urlfind()| url|
+|---------|--------|
+|urlfind()| url|   |
+|---------|--------|
 
 ## Contributing
 Pull requests are welcome!
