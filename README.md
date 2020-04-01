@@ -41,6 +41,14 @@ print(videos)
 
 >>> ['reddit.com/video.mp4', 'reddit.com/anothervideo.mp4] 
 ```
+```python
+#gets urls on page with only mp3 videos behind them
+
+audio = hufflib.url_videofind("https://reddit.com", 'mp3')
+print(audio)
+
+>>> ['reddit.com/sound.mp3', 'reddit.com/anothersound.mp3] 
+```
 ## Methods:
 |Function|Parameters|
 |---------------|---------|
