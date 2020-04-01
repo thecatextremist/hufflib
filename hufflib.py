@@ -6,6 +6,7 @@ import requests
 from resources import _imagefind
 from resources import _videofind
 from resources import _urlfind
+from resources import _audiofind
 
 
 class hufflib:
@@ -24,6 +25,9 @@ class hufflib:
     
     def url_videofind(url, ext):
         return _videofind.url_videofind(url=url, ext=ext)
+    
+    def url_audiofind(url, ext):
+        return _audiofind.url_audiofind(url=url, ext=ext)
 
 
         
