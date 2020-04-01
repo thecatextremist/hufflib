@@ -7,7 +7,7 @@ def url_videofind(url, ext):
         url_txt = url_fetch.text
         results = re.findall('http[s]?://(?:[a-zA-Z]|[0-9]|[$-_@.&+]|[!*\(\),]|(?:%[0-9a-fA-F][0-9a-fA-F]))+', url_txt)
         
-         #Liss of images found within page
+         #List of images found within page
         video_mp4 = []
         video_webm = []
         image_ogg = []
