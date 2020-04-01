@@ -1,6 +1,6 @@
 # Hufflib
 
-Hufflib is a python library built for extracting urls out of html pages. 
+Hufflib (html url finder library) is a python library built for extracting urls out of html pages. 
 with Hufflib You can extract general urls or specific urls with special extensions such as image urls or video urls.
 Hufflib then retrieves the urls and appends them to a list for you! 
 
