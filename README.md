@@ -16,10 +16,9 @@ Hufflib is not yet uploaded to pypi, for I am choosing to mature Hufflib more be
 
 ```python
 import hufflib
-
-#gets urls on page with any image behind them
 ```
 ```python
+#gets urls on page with any image behind them
 images = hufflib.url_imagefind("https://reddit.com", 'all')
 print(images)
 >>> ['reddit.com/image.png', 'reddit.com/image.ico', 'reddit.com/image.jpg']
