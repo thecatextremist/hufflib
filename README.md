@@ -41,11 +41,9 @@ print(videos)
 >>> ['reddit.com/video.mp4', 'reddit.com/anothervideo.mp4] 
 ```
 ## Methods:
-|------------|
-|    Name    |
-|------------|
-|  urlfind() |
-|------------|
+|Function|Parameter|
+|urlfind()| url|
+
 ## Contributing
 Pull requests are welcome!
 
