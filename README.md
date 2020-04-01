@@ -9,7 +9,7 @@ You can additionally specify which format the image/video should be in, or you c
 Currently supported image formats: png, jpg, svg, tiff, bmp, ico. <br>
 Currently supported video formats: mp4, webm, ogg, avi, mov, flv. <br>
 
-## Notice: Hufflib is not yet uploaded to pypi! For now, when hufflib is in it's testing stages, just copy the files to your project directory! 
+## Notice:<br> Hufflib is not yet uploaded to pypi! For now, when hufflib is in it's testing stages, just copy the files to your project directory! 
 
 ## Examples
 
