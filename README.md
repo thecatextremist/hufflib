@@ -41,10 +41,10 @@ print(videos)
 >>> ['reddit.com/video.mp4', 'reddit.com/anothervideo.mp4] 
 ```
 ## Methods:
-|Function|Parameter|
+|Function|Parameters|
 |---------|--------|
-|urlfind()| url|   |
-|---------|--------|
+|hufflib.urlfind()| url|   
+|hufflib.url_imagefind| url, ext
 
 ## Contributing
 Pull requests are welcome!
