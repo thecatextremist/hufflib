@@ -52,7 +52,7 @@ print(audio)
 ## Methods:
 |Function|Parameters|
 |---------------|---------|
-|urlfind()      | url     |   
+|url_find()      | url     |   
 |url_imagefind()| url, ext|
 |url_videofind()| url, ext|
 |url_audiofind()| url, ext|
